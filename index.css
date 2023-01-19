@@ -81,10 +81,16 @@ header ul{
     width: 35%;
     border: 2px solid var(--Cream);
     border-radius: 5px;
+    
+}
+#projectTwo h3{
+    display:inline;
+    text-align:
 }
 .sides {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    padding: 1em;
+    margin: 0 auto;
 }
 #contactMe{
     display: flex;
