@@ -83,19 +83,14 @@ header ul{
     border-radius: 5px;
     
 }
-#projectTwo img, #projectThree img{
-    width: 35%;
+#projectTwo img,  #projectThree img {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
     border: 2px solid var(--Cream);
     border-radius: 5px;
-    display: flex;
-    margin: 30px;
-    
 }
 
-#projectTwo h3{
-    display:inline;
-    text-align: center;
-}
 
 #contactMe{
     display: flex;
