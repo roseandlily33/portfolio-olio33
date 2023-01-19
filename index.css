@@ -23,6 +23,7 @@ header {
     display: flex;
     background-position: top;
     background: url('images/susan-wilkinson-xfvK_J3u3M4-unsplash.jpg');
+    border-bottom: 3px solid var(--Mocha);
    
 
 }
@@ -36,6 +37,7 @@ header h1{
     padding-block: 0.8em;
     padding-inline: 0.2em 1.5em;
     margin: 0;
+    border-right: 3px solid var(--Cream);
 }
 header ul{
     display: inline-flex;
@@ -62,6 +64,7 @@ header ul{
    font-family: var(--MainContent);
    font-size: 18px;
    padding-block: 2em;
+   border-bottom: 3px solid var(--Mocha);
 }
 
 #work{
@@ -69,6 +72,7 @@ header ul{
     color: var(--Cream);
     display: block;
     padding-block: 1em;
+    border-bottom: 3px solid var(--Mocha);
     
 }
 #projectOne img{
@@ -100,6 +104,7 @@ header ul{
     padding: 2em;
     background-color: var(--lightCream);
     color: var(--DarkBrown);
+    border-bottom: 3px solid var(--Mocha);
     
     
 }
@@ -117,4 +122,5 @@ footer{
    justify-content: center;
    padding: 3em;
    background-color: var(--Cream);
+   border-bottom: 3px solid var(--Mocha);
 }
