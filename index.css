@@ -61,12 +61,14 @@ header ul{
    text-align: center;
    font-family: var(--MainContent);
    font-size: 18px;
+   padding-block: 2em;
 }
 
 #work{
     background-color: var(--MedBrown);
     color: var(--Cream);
     display: block;
+    padding-block: 1em;
     
 }
 #projectOne img{
@@ -81,17 +83,16 @@ header ul{
     width: 35%;
     border: 2px solid var(--Cream);
     border-radius: 5px;
+    display: flex;
+    margin: 30px;
     
 }
+
 #projectTwo h3{
     display:inline;
-    text-align:
+    text-align: center;
 }
-.sides {
-    display: block;
-    padding: 1em;
-    margin: 0 auto;
-}
+
 #contactMe{
     display: flex;
     flex-direction: column;
@@ -99,6 +100,7 @@ header ul{
     padding: 2em;
     background-color: var(--lightCream);
     color: var(--DarkBrown);
+    
     
 }
 #contactMe li{
