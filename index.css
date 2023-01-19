@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Playfair+Display&family=Raleway+Dots&display=swap');
+
+:root{
+    --Cream: #ECE0D1;
+    --lightCream: #DBC1AC;
+    --Mocha: #967259;
+    --MedBrown: #634832;
+    --DarkBrown: #38220F;
+    --SubHead: 'Aboreto', cursive;
+    --MainContent: 'Playfair Display', serif;
+    --Heading: 'Raleway Dots', cursive;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--lightCream);
+    font-size: 18px;
+    color: var(--DarkBrown);
+}
+header {
+    display: flex;
+    background-position: top;
+    background: url('images/susan-wilkinson-xfvK_J3u3M4-unsplash.jpg');
+   
+
+}
+header h1{
+    color: var(--Cream);
+    border: 1px solid var(--Mocha);
+    background-color: var(--Mocha);
+    font-family: var(--Heading);
+    font-size: 3em;
+    float: left;
+    padding-block: 0.8em;
+    padding-inline: 0.2em 1.5em;
+    margin: 0;
+}
+header ul{
+    display: inline-flex;
+    justify-items: right;
+    font-family: var(--SubHead);
+    font-size: 0.8em;
+    padding: 5em;
+    margin: 0 auto;
+}
+#aboutMe h2, #work h2, #contactMe h2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: rosybrown;
+    font-size: 32px;
+    font-family: var(--SubHead);
+    padding: 1em;
+}
+
+#aboutMe{
+    background-color: var(--Cream);
+    color: var(--DarkBrown);
+   text-align: center;
+   font-family: var(--MainContent);
+   font-size: 18px;
+}
+
+#work{
+    background-color: var(--MedBrown);
+    color: var(--Cream);
+    display: block;
+    
+}
+#projectOne img{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid var(--Cream);
+    border-radius: 5px;
+    
+}
+#projectTwo img, #projectThree img{
+    width: 35%;
+    border: 2px solid var(--Cream);
+    border-radius: 5px;
+}
+.sides {
+    display: flex;
+    flex-direction: row;
+}
+#contactMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: var(--lightCream);
+    color: var(--DarkBrown);
+    
+}
+#contactMe li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0.4em;
+    text-align: center;
+    font-family: var(--MainContent);
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+   justify-content: center;
+   padding: 3em;
+   background-color: var(--Cream);
+}
