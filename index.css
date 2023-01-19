@@ -47,6 +47,14 @@ header ul{
     padding: 5em;
     margin: 0 auto;
 }
+header a{
+    text-decoration: none;
+    color: var(--Cream);
+}
+header a:hover{
+    color: var(--DarkBrown);
+    text-decoration: underline;
+}
 #aboutMe h2, #work h2, #contactMe h2{
     display: flex;
     justify-content: center;
@@ -90,6 +98,15 @@ header ul{
     border-radius: 5px;
     margin-block: 1em;
 }
+#projectOne img:hover{
+    border: 6px solid rosybrown;
+}
+#projectTwo img:hover{
+    border: 4px solid rosybrown;
+}
+#projectThree img:hover{
+    border: 4px solid rosybrown;
+}
 
 
 #contactMe{
@@ -111,7 +128,12 @@ header ul{
     font-family: var(--MainContent);
     font-size: 20px;
 }
-
+#contactMe a{
+    color: var(--Mocha);
+}
+#contactMe a:hover{
+    color: rosybrown;
+}
 footer{
     display: flex;
    justify-content: center;
