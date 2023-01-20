@@ -74,7 +74,7 @@ main{
    font-family: var(--MainContent);
    font-size: 18px;
    padding-block: 2em;
-   border-bottom: 3px solid var(--Mocha);
+ 
 }
 
 #work{
