@@ -82,8 +82,6 @@ main{
 #work{
     color: var(--Cream);
     display: block;
-    border-bottom: 3px solid var(--Mocha);
-    
 }
 #projectOne img{
     width: 80%;
@@ -139,6 +137,7 @@ main{
 }
 #contactMe a:hover{
     color: rosybrown;
+    text-decoration: underline;
 }
 footer{
     background-color: var(--MedBrown);
@@ -181,6 +180,12 @@ footer{
         display: flex;
         font-size: 0.5em
         
+    }
+    #aboutMe{
+        font-size: 0.8em;
+    }
+    #contactMe{
+        font-size: 0.6em;
     }
     
 }
