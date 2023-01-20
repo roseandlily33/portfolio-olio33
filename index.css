@@ -1,3 +1,5 @@
+/* Imported styles from google */
+
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Playfair+Display&family=Raleway+Dots&display=swap');
 
 :root{
@@ -9,6 +11,7 @@
     --SubHead: 'Aboreto', cursive;
     --MainContent: 'Playfair Display', serif;
     --Heading: 'Raleway Dots', cursive;}
+/* Main styles */
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +22,7 @@ body{
     color: var(--DarkBrown);
     display: block;
 }
+/* Header section: */
 header {
     display: flex;
     background-position: top;
@@ -56,8 +60,19 @@ header a:hover{
     color: var(--DarkBrown);
     text-decoration: underline;
 }
+/* Set the main background in a gradient */
 main{
     background-image: linear-gradient(180deg, var(--Cream), var(--lightCream), var(--Mocha), var(--MedBrown));
+}
+
+/* About me portion: */
+#aboutMe{
+    color: var(--DarkBrown);
+   text-align: center;
+   font-family: var(--MainContent);
+   font-size: 18px;
+   padding-block: 2em;
+ 
 }
 #aboutMe h2, #work h2, #contactMe h2{
     display: flex;
@@ -70,15 +85,7 @@ main{
    
 }
 
-#aboutMe{
-    color: var(--DarkBrown);
-   text-align: center;
-   font-family: var(--MainContent);
-   font-size: 18px;
-   padding-block: 2em;
- 
-}
-
+/* Work Section: 3 Projects */
 #work{
     color: var(--Cream);
     display: block;
@@ -112,7 +119,7 @@ main{
     box-shadow: 5px 5px 48px 29px var(--Cream);
 }
 
-
+/* Contact Me Section: */
 #contactMe{
     display: flex;
     flex-direction: column;
@@ -139,6 +146,8 @@ main{
     color: rosybrown;
     text-decoration: underline;
 }
+
+/* Footer */
 footer{
     background-color: var(--MedBrown);
     color: var(--Cream);
@@ -148,6 +157,8 @@ footer{
    border-bottom: 3px solid var(--Mocha);
    
 }
+
+/* Media Screens start here: */
 @media screen and (max-width: 450px){
     header{
         display: flex;
