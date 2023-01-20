@@ -38,6 +38,7 @@ header h1{
     padding-inline: 0.2em 1.5em;
     margin: 0;
     border-right: 3px solid var(--Cream);
+    mix-blend-mode:multiply
 }
 header ul{
     display: inline-flex;
@@ -66,6 +67,7 @@ main{
     font-size: 32px;
     font-family: var(--SubHead);
     padding: 1em;
+   
 }
 
 #aboutMe{
@@ -118,8 +120,8 @@ main{
     flex-direction: column;
     align-items: center;
     padding: 2em;
-    color: var(--DarkBrown);
-    border-bottom: 3px solid var(--Mocha);
+    color: var(--Cream);
+    border-bottom: 3px inset var(--Mocha);
     
 }
 #contactMe li{
@@ -131,7 +133,9 @@ main{
     font-size: 20px;
 }
 #contactMe a{
-    color: var(--Mocha);
+    color: #967BB6;
+    font-style: var(--Heading);
+    text-decoration: none;
 }
 #contactMe a:hover{
     color: rosybrown;
@@ -143,6 +147,7 @@ footer{
    justify-content: center;
    padding: 3em;
    border-bottom: 3px solid var(--Mocha);
+   
 }
 @media screen and (max-width: 450px){
     header{
