@@ -142,17 +142,27 @@ footer{
    background-color: var(--Cream);
    border-bottom: 3px solid var(--Mocha);
 }
-@media screen and (max-width: 500){
+@media screen and (max-width: 450px){
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    header h1{
+       text-align: center;
+       padding-left: 1.5em;
+       
+    }
     header ul{
-       display: block; 
-       margin: 0;
-       padding: 1em;
+       display: flex;
+      
+    
     }
    
 }
 @media screen and (max-width: 768px){
     header{
-        display: block;
+        display: flex;
     }
     header h1{
         font-size: 38px;
@@ -161,8 +171,9 @@ footer{
         text-align: center;
     }
     header ul{
-        display: inline-block;
-        text-align: center;
+        display: flex;
+        font-size: 0.5em
+        
     }
     
 }
