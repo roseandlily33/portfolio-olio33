@@ -12,17 +12,18 @@ Coming Soon
 The motivation behind it was so show what I have developed over the past couple of weeks, and to show future projects. The problem that it solves is that it is all in one location for anyone to take a look at. I learned more about responsive design, selecting colours, fonts etc to make it look aesthetically pleasing. I really wanted it to be a reflection of my personal style.
 
 ## Colour Usage & Plan
-For my overall plan I came up with a vision board of colours, pictures I was using etc.:
-
-
-For some more colour inspiration since I wasn't happy with the cream that I had originally picked I found this coffee palette online that was so beautiful and used the first cream colour:
+I found this coffee palette online, and used that as my colour story.
 https://www.color-hex.com/color-palette/30023
+I knew that I wanted it to be brown and cream and wanted a variety of those shades.
 
 ## Usage
 Click on the links on the top of the page to take you to that section of the screen, or click on the project images to take you to view my live deployed webpage of that project.
+Click on my github name to go to my github profile.
 
 ## Project Status
 In the future I will continue to update this by adding more of my projects to it.
+Updating cool features that I find, and some animations.
+As I continue to do more projects those will be added to the project, right now project #3 is the same as #1.
 
 ## License
 MIT

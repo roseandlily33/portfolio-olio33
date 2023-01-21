@@ -76,7 +76,14 @@ main{
    font-family: var(--MainContent);
    font-size: 18px;
    padding-block: 2em;
- 
+}
+
+#aboutMe img{
+    height: 300px;
+    width: 200px;
+    border: 1px solid var(--MedBrown);
+    border-radius: 5%;
+    
 }
 #aboutMe h2, #work h2, #contactMe h2{
     display: flex;
@@ -85,9 +92,11 @@ main{
     color: rosybrown;
     font-size: 32px;
     font-family: var(--SubHead);
-    padding: 1em;
-   
+    padding: 1em;}
+#aboutMe p{
+    padding-top: 3em;
 }
+
 
 /* Work Section: 3 Projects */
 #work{
@@ -159,6 +168,7 @@ footer{
    justify-content: center;
    padding: 3em;
    border-bottom: 3px solid var(--Mocha);
+   flex-wrap: wrap;
    
 }
 
