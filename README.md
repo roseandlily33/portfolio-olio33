@@ -5,8 +5,8 @@ Week 2 Challenge make a portfolio
 Week 2 Challenge was to make your own personal portfolio
 Criteria: Name, photo/avatar, links to sections, 1st application to be the largest, and when you click on images that takes you to the URL of the deployed app, and to have a responsive desgin. 
 
-## Images
-Coming Soon
+## Link
+https://roseandlily33.github.io/portfolio-2/
 
 ## About it
 The motivation behind it was so show what I have developed over the past couple of weeks, and to show future projects. The problem that it solves is that it is all in one location for anyone to take a look at. I learned more about responsive design, selecting colours, fonts etc to make it look aesthetically pleasing. I really wanted it to be a reflection of my personal style.
